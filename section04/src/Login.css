@@ -1,0 +1,63 @@
+.logopage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  width: 650px;
+  height: 670px;
+  display: flex;
+  background-color: #003876;
+}
+
+.yonsei_logo {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 70px;
+  height: 70px;
+  margin-Left: -5px;
+  margin-Right: 30px;;
+  margin-Bottom: 30px;
+  margin-Top: 40px;
+  padding: 10px;
+}
+
+.yonsei_logo:hover {
+  background-color: #efcc05;
+}
+
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-0%, -50%);
+
+  display: grid;  
+  width: 670px;
+  height: 670px;
+  color: rgb(183, 46, 46);
+  background-color:rgb(247, 243, 237);
+  justify-content: center;
+}
+
+.login > input {
+  height: 65px;
+  width: 550px;
+  top: 20%;
+  left: 5%;
+  border-radius: 10px;
+  border-color: rgb(192, 192, 192);
+  font-size: 19px;
+  margin-bottom: -20px;  
+}
+
+.loginButton {
+  margin-top: 10px;
+  background-color: #003876;
+  font-size: 24px;
+  font-weight: 500;
+  height: 75px;
+  width: 550px;
+  border-radius: 15px;
+  color: white;
+}

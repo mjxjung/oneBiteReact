@@ -1,0 +1,32 @@
+.portalLogo {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 650px;
+  display: flex;
+  background-color: #003876;
+  padding-bottom: 400px;
+}
+
+.portalLogin {
+  display: grid;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  width: 650px;
+  background-color: #003876;
+  color: white;
+  justify-content: center;
+  padding-bottom: 170px; 
+}
+
+.portalLoginButton {
+  margin-top: 10px;
+  background-color: #efcc05;
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
+  border-radius: 40px;
+  color: #003876;
+  cursor: pointer;
+}

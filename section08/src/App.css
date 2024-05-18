@@ -1,0 +1,15 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  display: flex; 
+  /* 개많이 씀 */
+  flex-direction: column;
+  gap: 10px; 
+  /* display가 flex일 때만 */
+}
+
+.done {
+  font-weight: 800;
+  font-size: 15px;
+  color: rgb(37, 147, 255);
+}
